@@ -38,7 +38,6 @@ This is a configuration aggregator for ProjectAinita servers. All server configu
 
 ## Important Notes
 
-- This repository is for educational purposes
 - All server infrastructure and configurations are provided by ProjectAinita
 - Updates occur every 24 hours
 - Check the Actions tab for update status
