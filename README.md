@@ -2,6 +2,10 @@
 
 This repository automatically fetches and updates Shadowsocks configurations from ProjectAinita servers every 24 hours.
 
+```URL
+https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt
+```
+
 ## Overview
 
 This project maintains an auto-updating list of Shadowsocks configurations sourced from ProjectAinita servers. The configurations are updated daily to ensure reliability and continuous access.
