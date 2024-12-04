@@ -1,3 +1,9 @@
+//profile-title: base64:8J+RvUFub255bW91cyhQcm9qZWN0QWluaXRhKQ==
+//profile-update-interval: 24
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/BXAMbot
+//profile-web-page-url: https://github.com/4n0nymou3
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkUHFDbk1rdldkRlJtendNb2lrT3JZ@52.14.247.124:51089/?POST%20
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5TjVDaHpRN2VQMjY4eTdGTjJ1Y1E2@3.18.213.242:12830/?POST%20
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVcHNaTVVTQnpScUdjQk02WHdqNXhY@54.68.63.118:39580/?POST%20
