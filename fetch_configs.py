@@ -1,7 +1,4 @@
 import requests
-from urllib.parse import urlparse
-import os
-import sys
 import logging
 
 logging.basicConfig(
@@ -11,7 +8,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 HEADERS = """//profile-title: base64:8J+RvUFub255bW91cyhQcm9qZWN0QWluaXRhKQ==
-//profile-update-interval: 6
+//profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3"""
@@ -53,7 +50,7 @@ def main():
     
     if not configs:
         logger.error("No configs were successfully fetched!")
-        sys.exit(1)
+        exit(1)
 
     try:
         with open('configs.txt', 'w', encoding='utf-8') as f:
@@ -63,7 +60,7 @@ def main():
         logger.info(f"Successfully wrote {len(configs)} configs to configs.txt with headers")
     except Exception as e:
         logger.error(f"Error writing to file: {str(e)}")
-        sys.exit(1)
+        exit(1)
 
 if __name__ == "__main__":
     main()
