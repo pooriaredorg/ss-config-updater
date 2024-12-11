@@ -1,6 +1,6 @@
 # SS Config Updater
 
-This repository automatically fetches and updates Shadowsocks configurations from ProjectAinita servers every 6 hours.
+This repository automatically fetches and updates Shadowsocks configurations from ProjectAinita servers every 1 hours.
 
 ```URL
 https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt
@@ -12,7 +12,7 @@ This project maintains an auto-updating list of Shadowsocks configurations sourc
 
 ## Features
 
-- Automatic updates every 6 hours
+- Automatic updates every 1 hours
 - Reliable configuration fetching
 - GitHub Actions automated workflow
 - Clean and formatted output
@@ -20,7 +20,7 @@ This project maintains an auto-updating list of Shadowsocks configurations sourc
 
 ## How It Works
 
-1. The GitHub Actions workflow runs automatically every 6 hours
+1. The GitHub Actions workflow runs automatically every 1 hours
 2. Python script fetches configurations from ProjectAinita servers
 3. Configurations are validated and formatted
 4. Results are saved to `configs.txt`
@@ -43,7 +43,7 @@ This is a configuration aggregator for ProjectAinita servers. All server configu
 ## Important Notes
 
 - All server infrastructure and configurations are provided by ProjectAinita
-- Updates occur every 6 hours
+- Updates occur every 1 hours
 - Check the Actions tab for update status
 
 ## Repository Status
