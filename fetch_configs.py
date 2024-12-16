@@ -13,7 +13,7 @@ HEADERS = """//profile-title: base64:8J+RvUFub255bW91cyhQcm9qZWN0QWluaXRhKQ==
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3"""
 
-def fetch_config(url):
+def fetch_config(url, server_number):
     https_url = url.replace('ssconf://', 'https://')
     logger.info(f"Fetching config from: {https_url}")
     
@@ -22,7 +22,8 @@ def fetch_config(url):
         response.raise_for_status()
         content = response.text.strip()
         if content.startswith('ss://'):
-            logger.info(f"Successfully fetched config from {https_url}")
+            content = f"{content}#Server-{server_number}"
+            logger.info(f"Successfully fetched config from {https_url} and added server number")
             return content
         else:
             logger.error(f"Invalid config format from {https_url}")
@@ -42,9 +43,9 @@ def main():
     ]
 
     configs = []
-    for url in urls:
+    for index, url in enumerate(urls, 1):
         logger.info(f"Processing URL: {url}")
-        config = fetch_config(url)
+        config = fetch_config(url, index)
         if config:
             configs.append(config)
     
