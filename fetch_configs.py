@@ -57,7 +57,7 @@ def main():
         with open('configs.txt', 'w', encoding='utf-8') as f:
             f.write(HEADERS)
             f.write('\n\n')
-            f.write('\n'.join(configs))
+            f.write('\n\n'.join(configs))
         logger.info(f"Successfully wrote {len(configs)} configs to configs.txt with headers")
     except Exception as e:
         logger.error(f"Error writing to file: {str(e)}")
