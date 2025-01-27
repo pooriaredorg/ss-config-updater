@@ -4,10 +4,10 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYR2xmQWxSeWVzNW5CekJMVHJRMGto@16.170.163.21:62990/?POST%20#Server-1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppdjBHT1ZjakY3dUljRzFXaXJKbzdz@51.20.18.67:35093/?POST%20#Server-1
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYR2xmQWxSeWVzNW5CekJMVHJRMGto@16.170.163.21:62990/?POST%20#Server-2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppdjBHT1ZjakY3dUljRzFXaXJKbzdz@51.20.18.67:35093/?POST%20#Server-2
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxSERGOTlsWDRsM3EwVEVLRThkR2Vm@13.49.69.38:64731/?POST%20#Server-3
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMElLdWlTejhxQ3hsb3ZURUtrd2d4@13.51.172.229:6749/?POST%20#Server-3
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxSERGOTlsWDRsM3EwVEVLRThkR2Vm@13.49.69.38:64731/?POST%20#Server-4
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMElLdWlTejhxQ3hsb3ZURUtrd2d4@13.51.172.229:6749/?POST%20#Server-4
