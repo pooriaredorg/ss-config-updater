@@ -7,7 +7,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-HEADERS = """//profile-title: base64:8J+RvUFub255bW91cyhQcm9qZWN0QWluaXRhKQ==
+HEADERS = """//profile-title: base64:8J+lt1BPT1JJQV9SRUQo2b7Ys9ixLdii2LHbjNin24zbjCk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/BXAMbot
